@@ -1,0 +1,5 @@
+interface:
+  display_name: "Atlassian (Team Mirror)"
+  short_description: "Jira & Confluence, auto-mirrors your tickets to your team project"
+policy:
+  allow_implicit_invocation: false

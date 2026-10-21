@@ -1,0 +1,25 @@
+{
+  "_comment": "Fill in the fields below, then save as ~/.copilot/atlassian-config.json (Windows: %USERPROFILE%\\.copilot\\atlassian-config.json). Shared with the original 'atlassian' skill.",
+  "_help": {
+    "email": "Your Atlassian account email address (e.g. you@yourcompany.com)",
+    "api_token": "Generate at https://id.atlassian.com/manage-profile/security/api-tokens (recommend 90-day expiry)",
+    "site": "Your Atlassian site domain, no https:// prefix (e.g. your-org.atlassian.net)",
+    "cloudId": "Optional. Leave as '' and skill will auto-fetch on first run",
+    "token": "Optional. Leave as '' and skill will auto-generate from email + api_token",
+    "mirror_project_key": "Your team's Jira project key. Tickets you create in other projects are mirrored here.",
+    "mirror_enabled": "Set to false to turn mirroring off without uninstalling",
+    "mirror_status_fallback": "Mirror status to use when the original's status name doesn't exist in the mirror project, by status category",
+    "atlassian_gad_source_raw_base": "Raw GitHub base URL used by '/atlassian-gad update'"
+  },
+
+  "email": "you@yourcompany.com",
+  "api_token": "REPLACE_WITH_YOUR_ATLASSIAN_API_TOKEN",
+  "site": "your-org.atlassian.net",
+  "cloudId": "",
+  "token": "",
+
+  "mirror_project_key": "GAD",
+  "mirror_enabled": true,
+  "mirror_status_fallback": { "new": "Backlog", "indeterminate": "In Progress", "done": "Done" },
+  "atlassian_gad_source_raw_base": "https://raw.githubusercontent.com/azaespa/skills/main"
+}
